@@ -46,6 +46,8 @@ jobs:
       - uses: pypa/gh-action-pypi-publish@release/v1
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}
+          skip-existing: true
+          attestations: false
 
   npm:
     needs: check
@@ -59,7 +61,14 @@ jobs:
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org
-      - run: npm publish --provenance --access public
+      # Skip when this version is already on npm, so a re-run of the tag never fails here
+      - run: |
+          name=$(node -p "require('./package.json').name")
+          if npm view "$name@${{ needs.check.outputs.version }}" version >/dev/null 2>&1; then
+            echo "$name@${{ needs.check.outputs.version }} is already published, skipping"
+          else
+            npm publish --provenance --access public
+          fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -90,3 +99,4 @@ jobs:
           repository: ${{ env.DOCKER_IMAGE }}
           short-description: "AI video upscaler CLI for videoupscaler.co: upscale videos to 1080p, 2K or 4K"
           readme-filepath: ./README.md
+          enable-url-completion: true

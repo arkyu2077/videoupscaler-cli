@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/videoupscaler?label=npm)](https://www.npmjs.com/package/videoupscaler)
 [![Docker](https://img.shields.io/docker/v/videoupscaler/cli?label=Docker%20Hub&sort=semver)](https://hub.docker.com/r/videoupscaler/cli)
 [![CI](https://github.com/arkyu2077/videoupscaler-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/arkyu2077/videoupscaler-cli/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/arkyu2077/videoupscaler-cli/blob/main/LICENSE)
 
 Command-line client for the [VideoUpscaler](https://videoupscaler.co) API. Upscale a video file or URL to **1080p, 2K or 4K** with AI from your terminal, a script or a container, and download the result when it is done.
 
@@ -155,4 +155,4 @@ Tests never call the real API. Releases are published to PyPI, npm and Docker Hu
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/arkyu2077/videoupscaler-cli/blob/main/LICENSE)
