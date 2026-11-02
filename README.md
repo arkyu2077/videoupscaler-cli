@@ -141,6 +141,7 @@ Both clients expose the same methods: `getAccount` / `get_account`, `uploadFile`
 - [Pricing and credits](https://videoupscaler.co/pricing).
 - [API documentation](https://videoupscaler.co/docs): [create an upscale](https://videoupscaler.co/docs/upscale), [tasks](https://videoupscaler.co/docs/tasks), [uploads](https://videoupscaler.co/docs/uploads), [errors and limits](https://videoupscaler.co/docs/errors).
 - [Video MCP server](https://videoupscaler.co/docs/mcp): the same operations for Claude Code, Cursor and VS Code.
+- [n8n, Make & Zapier workflow integrations](https://videoupscaler.co/integrations): ready-to-import 4K automation templates, [workflow automation docs](https://videoupscaler.co/docs/workflows), and the official [`n8n-nodes-videoupscaler`](https://github.com/arkyu2077/n8n-nodes-videoupscaler) community node.
 - Guides: [4K video upscaler](https://videoupscaler.co/4k-video-upscaler), [enhance video quality](https://videoupscaler.co/enhance-video-quality), [upscale video to 1080p](https://videoupscaler.co/upscale-video-to-1080p), [video super resolution](https://videoupscaler.co/video-super-resolution).
 
 ## Development
