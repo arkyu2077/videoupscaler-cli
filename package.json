@@ -2,15 +2,36 @@
   "name": "videoupscaler",
   "version": "0.1.0",
   "description": "Command-line client for the VideoUpscaler API: upscale videos to 1080p, 2K or 4K with AI.",
-  "keywords": ["video", "upscale", "upscaler", "4k", "ai", "super-resolution", "cli", "video-enhancer"],
+  "keywords": [
+    "video-upscaler",
+    "ai-video-upscaler",
+    "4k-video-upscaler",
+    "batch-video-upscaler",
+    "video-enhancement",
+    "frame-interpolation",
+    "n8n",
+    "mcp",
+    "cli",
+    "video",
+    "upscale",
+    "upscaler",
+    "4k",
+    "ai",
+    "super-resolution",
+    "video-enhancer"
+  ],
   "homepage": "https://videoupscaler.co",
   "bugs": "https://github.com/arkyu2077/videoupscaler-cli/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkyu2077/videoupscaler-cli.git"
+    "url": "https://github.com/arkyu2077/videoupscaler-cli.git"
   },
   "license": "MIT",
-  "author": "VideoUpscaler <support@videoupscaler.co> (https://videoupscaler.co)",
+  "author": {
+    "name": "ArkYu",
+    "email": "arkyu.008@gmail.com",
+    "url": "https://videoupscaler.co"
+  },
   "type": "module",
   "bin": {
     "videoupscaler": "bin/videoupscaler.js"
