@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "videoupscaler-cli: Official CLI & Python/Node.js SDK for VideoUpscaler 4K AI Video Super-Resolution"
+message: "If you use arkyu2077/videoupscaler-cli in your research, media pipelines, or automation workflows, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Yu"
+    given-names: "Ark"
+    alias: "arkyu2077"
+    affiliation: "VideoUpscaler"
+repository-code: "https://github.com/arkyu2077/videoupscaler-cli"
+url: "https://videoupscaler.co"
+abstract: "Official command-line interface and zero-dependency Python/Node.js SDK for VideoUpscaler (https://videoupscaler.co) — upscale and enhance videos to 1080p, 2K, and 4K 60fps with AI super-resolution."
+keywords:
+  - video-upscaling
+  - super-resolution
+  - 4k-video-upscaler
+  - batch-video-upscaler
+  - video-enhancement
+  - frame-interpolation
+license: MIT
+version: "0.1.0"
+date-released: "2026-11-03"
+references:
+  - type: web
+    title: "VideoUpscaler — AI Video Upscaler to 1080p, 2K & 4K"
+    url: "https://videoupscaler.co"
+  - type: web
+    title: "VideoUpscaler Integrations & Workflow Documentation"
+    url: "https://videoupscaler.co/integrations"

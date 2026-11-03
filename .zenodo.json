@@ -1,0 +1,43 @@
+{
+  "title": "videoupscaler-cli: Official CLI & Python/Node.js SDK for VideoUpscaler 4K AI Video Super-Resolution",
+  "description": "Official command-line interface and zero-dependency Python/Node.js SDK for VideoUpscaler (https://videoupscaler.co) \u2014 upscale and enhance videos to 1080p, 2K, and 4K 60fps with AI super-resolution.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Yu, Ark",
+      "affiliation": "VideoUpscaler (https://videoupscaler.co)"
+    }
+  ],
+  "keywords": [
+    "video-upscaling",
+    "super-resolution",
+    "4k-video-upscaler",
+    "batch-video-upscaler",
+    "video-enhancement",
+    "frame-interpolation"
+  ],
+  "url": "https://videoupscaler.co",
+  "related_identifiers": [
+    {
+      "identifier": "https://videoupscaler.co",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://videoupscaler.co/4k-video-upscaler",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://videoupscaler.co/integrations",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/arkyu2077/videoupscaler-cli",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}
